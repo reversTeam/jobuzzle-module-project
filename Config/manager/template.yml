@@ -1,0 +1,27 @@
+###############################################################
+#     ####         #                               #          # Jobuzzle - Copyright All rights reserved
+#     ####         #                               #          #
+#       ##  #####  ######  #     # ####### ####### #  #####   # @Author: revers
+#       ## #     # #     # #     #      #       #  # #     #  #
+#       ## #     # #     # #     #     #       #   # #     #  # @Date:   2015-10-03 18:50:00
+#       ## #     # #     # #     #    #       #    # #     #  #
+#       ## #     # #     # #     #   #       #     # ######   # @Last Modified by:   revers
+#  ####### #     # #     # #     #  #       #      # #        #
+#  ######   #####   ######  #####  ####### ####### # #######  # @Last Modified time: 2015-10-03 18:51:59
+###############################################################
+
+invokables:
+	project_data_timeline_template : Data/Template/ProjectDataTimelineTemplate
+
+	project_data_search_template	: Data/Template/ProjectDataSearchTemplate
+	project_data_view_template		: Data/Template/ProjectDataViewTemplate
+	project_data_create_template	: Data/Template/ProjectDataCreateTemplate
+	project_data_update_template	: Data/Template/ProjectDataUpdateTemplate
+	project_data_delete_template	: Data/Template/ProjectDataDeleteTemplate
+
+shared:
+	project_data_search_template	: true
+	project_data_view_template		: true
+	project_data_create_template	: true
+	project_data_update_template	: true
+	project_data_delete_template	: true

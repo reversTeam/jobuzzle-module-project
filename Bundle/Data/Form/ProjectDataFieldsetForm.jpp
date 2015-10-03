@@ -1,0 +1,20 @@
+/**************************************************************
+*     ####         #                               #          * Jobuzzle - Copyright All rights reserved
+*     ####         #                               #          *
+*       ##  #####  ######  #     # ####### ####### #  #####   * @Author: revers
+*       ## #     # #     # #     #      #       #  # #     #  *
+*       ## #     # #     # #     #     #       #   # #     #  * @Date:   2015-09-19 11:58:46
+*       ## #     # #     # #     #    #       #    # #     #  *
+*       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
+*  ####### #     # #     # #     #  #       #      # #        *
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-10-03 18:54:39
+**************************************************************/
+
+class ProjectDataFieldsetForm extends NamedDataDataFieldsetForm {
+
+	public _formName = 'Project';
+	public _createFormName = 'project_data_create_form';
+	public _searchFormName = 'project_data_search_form';
+	public _editFormName = 'project_data_edit_form';
+
+}

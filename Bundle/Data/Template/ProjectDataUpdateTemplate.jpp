@@ -1,0 +1,20 @@
+/**************************************************************
+*     ####         #                               #          * Jobuzzle - Copyright All rights reserved
+*     ####         #                               #          *
+*       ##  #####  ######  #     # ####### ####### #  #####   * @Author: revers
+*       ## #     # #     # #     #      #       #  # #     #  *
+*       ## #     # #     # #     #     #       #   # #     #  * @Date:   2015-08-08 11:12:48
+*       ## #     # #     # #     #    #       #    # #     #  *
+*       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
+*  ####### #     # #     # #     #  #       #      # #        *
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-10-03 18:55:11
+**************************************************************/
+
+class ProjectDataUpdateTemplate extends NamedDataDataUpdateTemplate {
+
+	public _viewClassName = 'ProjectDataTemplateUpdateView';
+	public _serviceName = 'project_data_main_service';
+	public _type = 'Project';
+	public _route = 'project';
+
+}

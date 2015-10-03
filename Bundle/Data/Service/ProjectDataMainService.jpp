@@ -1,0 +1,24 @@
+/**************************************************************
+*     ####         #                               #          * Jobuzzle - Copyright All rights reserved
+*     ####         #                               #          *
+*       ##  #####  ######  #     # ####### ####### #  #####   * @Author: revers
+*       ## #     # #     # #     #      #       #  # #     #  *
+*       ## #     # #     # #     #     #       #   # #     #  * @Date:   2015-08-08 11:12:48
+*       ## #     # #     # #     #    #       #    # #     #  *
+*       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
+*  ####### #     # #     # #     #  #       #      # #        *
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-10-03 18:54:37
+**************************************************************/
+
+class ProjectDataMainService extends NamedDataDataMainService {
+
+	_type = 'project';
+	_entityType = 'Project';
+	_title = 'Projects';
+	_fieldsetName = 'project_data_fieldset_form';
+
+	getTitleParamsView : function (entity) {
+		return _super(entity);
+	}
+
+}
