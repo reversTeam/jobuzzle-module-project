@@ -1,0 +1,17 @@
+###############################################################
+#     ####         #                               #          # Jobuzzle - Copyright All rights reserved
+#     ####         #                               #          #
+#       ##  #####  ######  #     # ####### ####### #  #####   # @Author: revers
+#       ## #     # #     # #     #      #       #  # #     #  #
+#       ## #     # #     # #     #     #       #   # #     #  # @Date:   2015-10-03 18:49:42
+#       ## #     # #     # #     #    #       #    # #     #  #
+#       ## #     # #     # #     #   #       #     # ######   # @Last Modified by:   revers
+#  ####### #     # #     # #     #  #       #      # #        #
+#  ######   #####   ######  #####  ####### ####### # #######  # @Last Modified time: 2015-10-03 18:51:04
+###############################################################
+
+invokables:
+	project_data_fieldset_form : Data/Form/ProjectDataFieldsetForm
+	project_data_create_form : Data/Form/ProjectDataCreateForm
+	project_data_edit_form : Data/Form/ProjectDataEditForm
+	project_data_search_form : Data/Form/ProjectDataSearchForm
