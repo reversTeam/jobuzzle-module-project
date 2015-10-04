@@ -7,11 +7,12 @@
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-10-03 18:55:10
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-10-04 02:20:15
 **************************************************************/
 
 class ProjectDataTimelineTemplate extends NamedDataDataTimelineTemplate {
 
 	public _viewClassName = 'ProjectDataTemplateTimelineView';
+	public _type = 'Project';
 
 }
