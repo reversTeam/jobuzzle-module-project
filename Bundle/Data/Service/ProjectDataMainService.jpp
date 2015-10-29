@@ -7,7 +7,7 @@
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-10-03 18:54:37
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-10-28 14:31:34
 **************************************************************/
 
 class ProjectDataMainService extends NamedDataDataMainService {
@@ -19,6 +19,13 @@ class ProjectDataMainService extends NamedDataDataMainService {
 
 	getTitleParamsView : function (entity) {
 		return _super(entity);
+	}
+
+	public getElementEntity : function (id) {
+		var router = serviceLocator.get('Router');
+		var store = serviceLocator.get('ServiceManager').get('store_manager_main_service');
+
+		store.request(router.build('/project/view', { 'project_url' : id }));
 	}
 
 }
