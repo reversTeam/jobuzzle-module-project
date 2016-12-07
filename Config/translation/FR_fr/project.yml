@@ -7,10 +7,15 @@
 #       ## #     # #     # #     #    #       #    # #     #  #
 #       ## #     # #     # #     #   #       #     # ######   # @Last Modified by:   revers
 #  ####### #     # #     # #     #  #       #      # #        #
-#  ######   #####   ######  #####  ####### ####### # #######  # @Last Modified time: 2015-11-09 14:17:22
+#  ######   #####   ######  #####  ####### ####### # #######  # @Last Modified time: 2015-11-21 15:04:04
 ###############################################################
 
 page:
 	title:
 		Projects: Projets
 		view: '{{url}}'
+
+view:
+	actions:
+		edit: Éditer le projet
+		delete: Supprimer le projet

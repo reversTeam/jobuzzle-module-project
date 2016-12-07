@@ -7,10 +7,11 @@
 #       ## #     # #     # #     #    #       #    # #     #  #
 #       ## #     # #     # #     #   #       #     # ######   # @Last Modified by:   revers
 #  ####### #     # #     # #     #  #       #      # #        #
-#  ######   #####   ######  #####  ####### ####### # #######  # @Last Modified time: 2015-10-03 18:48:33
+#  ######   #####   ######  #####  ####### ####### # #######  # @Last Modified time: 2015-11-21 15:04:13
 ###############################################################
 
 project:
 	create: 'Créer  projet'
 	edit: 'Editer un projet'
 	search : 'Rechercher des projets'
+	delete : Supprimer le projet

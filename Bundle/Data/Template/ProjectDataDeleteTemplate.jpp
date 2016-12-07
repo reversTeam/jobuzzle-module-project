@@ -7,13 +7,12 @@
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-10-03 18:54:36
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-11-21 14:49:48
 **************************************************************/
 
 class ProjectDataDeleteTemplate extends NamedDataDataDeleteTemplate {
 
 	public _viewClassName = 'ProjectDataTemplateDeleteView';
 	public _type = 'Project';
-	public _route = 'project';
 
 }
